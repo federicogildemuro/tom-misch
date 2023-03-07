@@ -1,0 +1,40 @@
+footer{
+	background-color: $background-color_2;
+	color: $color_3;
+	font-size: .8rem;
+
+	.pie{
+		padding: 1rem 2rem;
+
+		.copyright{
+			line-height: 2rem;
+			text-align: center;
+			align-self: center;
+			padding: 0;
+
+			p{
+				margin: 0;
+			}
+		}
+
+		.redes{
+			text-align: center;
+			margin: 0;
+
+			li{
+				list-style: none;
+				display: inline-block;
+				text-align: center;
+				margin: 0;
+				padding: .5rem;
+
+				.icono{
+
+					&:hover{
+						fill: white;
+					}
+				}
+			}
+		}
+	}
+}

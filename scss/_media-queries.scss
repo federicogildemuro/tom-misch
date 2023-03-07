@@ -1,0 +1,55 @@
+@media screen and (min-width: 992px){
+
+    .barra-colapsada{
+		justify-content: flex-end;
+	}
+
+	.discografia{
+
+		.album{
+
+			h2{
+				text-align: start;
+			}
+		}
+	}
+
+	.contacto{
+
+        div{
+			width: 50vw;
+		}
+	}
+
+	footer{
+
+		.pie{
+
+			.copyright{
+
+				p{
+					text-align: start;
+				}
+			}
+
+			.redes{
+				text-align: end;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1200px){
+
+    .fecha{
+		text-align: end;
+	}
+
+    .ciudad{
+		text-align: auto;
+	}
+
+    .comprar{
+		text-align: start;
+	}
+}

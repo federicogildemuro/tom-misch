@@ -1,0 +1,28 @@
+.barra{
+	background: linear-gradient(180deg, rgba(255,104,34,1) 0%, rgba(255,188,16,1) 100%);
+
+	.barra-logo{
+		padding: 1rem;
+
+		&:hover{
+			opacity: 50%;
+		}
+	}
+
+	.barra-elemento{
+		margin: .5rem;
+
+		.barra-vinculo{
+			color: $color_3;
+			font-size: 1.2rem;
+			font-weight: bold;
+			letter-spacing: .2rem;
+			border-radius: .5rem;
+
+			&:hover{
+				background-color: $background-color_1;
+				color: $color_2;
+			}
+		}
+	}
+}

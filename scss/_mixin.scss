@@ -1,0 +1,12 @@
+@mixin boton{
+    background-color: $background-color_2;
+    color: $color_3;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: .5rem;
+
+    &:hover{
+        background: linear-gradient(180deg, rgba(255,104,34,1) 0%, rgba(255,188,16,1) 100%);
+    }
+}
