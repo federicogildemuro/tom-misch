@@ -11,18 +11,18 @@
 
 	.barra-elemento{
 		margin: .5rem;
+		border-bottom: hidden .25rem $color_3;
+
+		&:hover{
+			margin-bottom: 0;
+			border-bottom: solid;
+		}
 
 		.barra-vinculo{
 			color: $color_3;
 			font-size: 1.2rem;
 			font-weight: bold;
 			letter-spacing: .2rem;
-			border-radius: .5rem;
-
-			&:hover{
-				background-color: $background-color_1;
-				color: $color_2;
-			}
 		}
 	}
 }

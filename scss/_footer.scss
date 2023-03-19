@@ -2,31 +2,32 @@ footer{
 	background-color: $background-color_2;
 	color: $color_3;
 	font-size: .8rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
 
-	.pie{
-		padding: 1rem 2rem;
+	.copyright{
+		line-height: 2rem;
+		
 
-		.copyright{
-			line-height: 2rem;
+		p{
+			margin: 0 1rem;
 			text-align: center;
-			align-self: center;
-			padding: 0;
-
-			p{
-				margin: 0;
-			}
 		}
+	}
 
-		.redes{
-			text-align: center;
+	.redes{
+
+		ul{
 			margin: 0;
+			padding: 0;
 
 			li{
 				list-style: none;
 				display: inline-block;
-				text-align: center;
-				margin: 0;
-				padding: .5rem;
+				padding: 1rem;
 
 				.icono{
 

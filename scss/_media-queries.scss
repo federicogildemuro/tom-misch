@@ -14,6 +14,24 @@
 		}
 	}
 
+	.recital{
+		grid-template-rows: 1fr;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas: "fecha ciudad comprar";
+
+		.fecha{
+			text-align: end;
+		}
+
+		.ciudad{
+			text-align: auto;
+		}
+
+		.comprar{
+			text-align: start;
+		}
+	}
+
 	.contacto{
 
         div{
@@ -22,34 +40,6 @@
 	}
 
 	footer{
-
-		.pie{
-
-			.copyright{
-
-				p{
-					text-align: start;
-				}
-			}
-
-			.redes{
-				text-align: end;
-			}
-		}
-	}
-}
-
-@media screen and (min-width: 1200px){
-
-    .fecha{
-		text-align: end;
-	}
-
-    .ciudad{
-		text-align: auto;
-	}
-
-    .comprar{
-		text-align: start;
+		justify-content: space-between;
 	}
 }
